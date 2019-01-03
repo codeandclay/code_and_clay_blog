@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Code and Clay
+tagline:             Notes and thoughts about things and other such
+url:                 http://www.codeandclay.com
 paginate:            1
 baseurl:             ""
 
@@ -17,9 +17,8 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              O Denman
+  email:             oliver@codeandclay.com
 
 # Custom vars
 version:             2.0.0
