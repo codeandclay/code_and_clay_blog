@@ -4,6 +4,7 @@
 // there are no more previous or next posts to show.
 
 .pagination {
+  font-family: $title-font-family;
   overflow: hidden; // clearfix
   margin: 0 -1.5rem 1rem;
   color: #ccc;
