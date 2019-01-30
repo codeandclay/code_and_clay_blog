@@ -2,8 +2,8 @@
 permalink:           pretty
 
 # Setup
-title:               Code and Clay
-tagline:             Notes and thoughts about things and other such
+title:               Code & Clay
+tagline:             Personal notes.
 url:                 http://www.codeandclay.com
 paginate:            5
 baseurl:             ""
