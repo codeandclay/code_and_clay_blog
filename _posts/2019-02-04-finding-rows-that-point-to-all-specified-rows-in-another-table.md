@@ -47,3 +47,18 @@ scope :by_labels, lambda { |labels|
   where(id: [*labels].map { |label| ids_for_label(label) }.reduce(&:&))
 }
 ```
+
+But there's a problem.
+
+```ruby
+# One call to the db
+Issue.by_labels(['bug'])
+
+# Two calls to the db
+Issue.by_labels(['bug', 'enhancement']).first.title
+
+# Three calls to the db
+Issue.by_labels(['bug', 'fix', 'enhancement']).length
+```
+
+I'm not sure if you'd call this a N+1 problem, as the number of queries equals the array count, but it's a similar kind of monster.
