@@ -26,6 +26,15 @@
             </li>
           {% endfor %}
         </ul>
+
+        <h3>Other blogs</h3>
+        <ul>
+          {% for blog in site.data.blogs %}
+             <li>
+              <a href="{{ blog.url }}">{{ blog.name }}</a>
+            </li>
+          {% endfor %}
+        </ul>
       </nav>
 
       <footer class="footer">
