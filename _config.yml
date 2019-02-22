@@ -8,6 +8,10 @@ url:                 http://www.codeandclay.com
 paginate:            5
 baseurl:             ""
 
+# Misc
+# Number of posts to show in most recent posts listing
+most_recent_count: 15
+
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
