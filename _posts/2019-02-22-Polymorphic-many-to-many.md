@@ -35,3 +35,12 @@ class Comment < ApplicationRecord
   has_many :badges, through: :reactions
 end
 ```
+
+## Update
+
+This works fine from the pov of the `reaction_target` but I cannot reference the polymorphic associations from the pov of a badge:
+
+```ruby
+> Badge.first_or_create(name: "test").reaction_targets
+NameError: uninitialized constant Badge::ReactionTarget
+```
