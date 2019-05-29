@@ -33,3 +33,9 @@ github:
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
