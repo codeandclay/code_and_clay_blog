@@ -1,5 +1,5 @@
 ---
-title: Enhance shell scripting with Ruby
+title: Enhanced shell scripting with Ruby
 layout: post
 ---
 
