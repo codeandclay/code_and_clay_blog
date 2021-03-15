@@ -34,6 +34,9 @@ gems:
   - jekyll-paginate
   - jekyll-gist
 
+plugins:
+  - jekyll-paginate
+
 defaults:
   - scope:
       path: "assets/images"

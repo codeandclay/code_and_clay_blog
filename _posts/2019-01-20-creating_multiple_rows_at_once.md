@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rails: Creating multiple rows at once"
+title: "Rails: How can I create multiple rows at once?"
 ---
 
 I needed to seed my database with close to 20,000 rows. It took a _long_ time.
