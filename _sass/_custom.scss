@@ -16,3 +16,7 @@ iframe {
 ul {
   list-style: square;
 }
+
+.post > *:last-child {
+  margin-bottom: 0;
+}
