@@ -9,6 +9,9 @@
   li + li {
     margin-top: .25rem;
   }
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: $zomp;
 }
 
 // Blog post or page title
@@ -33,9 +36,9 @@
 
 // Related posts
 .related {
-  // margin-bottom: $post-spacing;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  margin-bottom: $post-spacing;
+  // border-top: 1px solid #eee;
+  // border-bottom: 1px solid #eee;
 }
 
 .related-posts {

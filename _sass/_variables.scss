@@ -12,15 +12,23 @@ $cyan: #75b5aa;
 $blue: #268bd2;
 $brown: #8f5536;
 
+/* SCSS HEX */
+$upsdell-red: #b0133066;
+$zomp: #15b09466;
+$imperial-red: #66083566;
+$crimson: #db1438ff;
+$zomp-2: #0aa68966;
+
 $root-font-family: 'Roboto Slab', serif;
 $title-font-family: $root-font-family;
 $root-font-size: 1rem;
 $root-line-height: 1.5;
-$post-spacing: 3.5rem;
+$post-spacing: 3rem;
 
 $body-color: black;
-$body-bg: #fff;
-$link-color: $blue;
+$body-bg: #fafafa;
+$link-color: $crimson;
+$heading-color: black;
 
 $border-color: #e5e5e5;
 
@@ -29,4 +37,8 @@ $large-font-size: 1rem;
 
 $code-font-family: 'Roboto Mono', monospace;
 
-$code-color: #bf616a;
+$code-color: $crimson;
+$code-background: $zomp;
+
+$snippet-background-color: #272822;
+$snippet-foreground-color: #fff;

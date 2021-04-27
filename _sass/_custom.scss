@@ -1,5 +1,5 @@
 .language-ruby .highlight {
-  background-color: $gray-1;
+  // background-color: $gray-1;
 }
 
 nav > ul {
@@ -18,5 +18,18 @@ ul {
 }
 
 .post > *:last-child {
-  margin-bottom: 0;
+  margin-bottom: $post-spacing;
+}
+
+nav {
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+}
+
+.pagination {
+  a {
+    color: black;
+  }
 }
