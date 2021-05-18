@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Don't forget the database!"
+tags: archive
 ---
 
 I have two models `Issue` and `Label`. I want to establish a relationship where issues can have many labels and labels can have many issues.

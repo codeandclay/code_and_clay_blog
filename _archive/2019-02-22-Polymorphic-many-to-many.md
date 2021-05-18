@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Polymorphic many to many
+tags: archive
 ---
 I found this to be a bit of a brain twister at first but it's really quite simple.
 

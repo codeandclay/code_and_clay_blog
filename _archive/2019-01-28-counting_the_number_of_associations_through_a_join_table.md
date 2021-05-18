@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Counting rows with the most many to many associations
+tags: archive
 ---
 
 I need the labels associated with the most issues. I can use a following to get a hash of label names with issue counts.

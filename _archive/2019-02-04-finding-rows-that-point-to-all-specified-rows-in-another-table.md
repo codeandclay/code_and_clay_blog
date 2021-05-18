@@ -2,6 +2,8 @@
 layout: post
 title: Finding rows in a table that point to rows in another that match all the specified column values…
 ---
+(Update: I found a better way here: ({% post_url 2019-02-14-finding-rows-that-point-to-foreign-rows-improved-query %}).)
+
 I have models named `Issue` and `Label`. Each `issue` can have many `labels`. Each `label` can have many `issues`.
 
 I am trying to build a query that will return an issue that contains all of the supplied labels.

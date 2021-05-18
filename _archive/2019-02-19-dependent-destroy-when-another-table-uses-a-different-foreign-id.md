@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dependent destroy when another table uses a different foreign_id
+tags: archive
 ---
 
 I have two models `Comment` and `User`. A user can have many comments and a comment has one user -- referred to as its author.

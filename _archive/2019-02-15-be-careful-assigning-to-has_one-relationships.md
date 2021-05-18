@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Be Careful Assigning to has_one Relations
+tags: archive
 ---
 
 via [Andy Croll](https://andycroll.com/ruby/be-careful-assigning-to-has-one-relations/)
